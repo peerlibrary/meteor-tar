@@ -1,0 +1,8 @@
+{
+  "name": "tar",
+  "description": "Meteor smart package for tar",
+  "homepage": "https://github.com/peerlibrary/meteor-tar",
+  "author": "The PeerLibrary Project",
+  "version": "0.1.0",
+  "git": "https://github.com/peerlibrary/meteor-tar.git"
+}
