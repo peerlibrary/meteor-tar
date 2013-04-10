@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Meteor smart package for tar"
+  summary: "Meteor smart package for tar node.js package"
 });
 
 Package.on_use(function (api) {

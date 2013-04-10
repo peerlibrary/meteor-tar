@@ -1,6 +1,6 @@
 {
   "name": "tar",
-  "description": "Meteor smart package for tar",
+  "description": "Meteor smart package for tar node.js package",
   "homepage": "https://github.com/peerlibrary/meteor-tar",
   "author": "The PeerLibrary Project",
   "version": "0.1.0",
