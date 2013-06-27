@@ -2,11 +2,17 @@ Package.describe({
   summary: "Meteor smart package for tar node.js package"
 });
 
-Package.on_use(function (api) {
-  api.use('coffeescript', 'server');
+Npm.depends({
+  tar: "0.1.17"
+});
 
+Package.on_use(function (api) {
   api.add_files([
-    'bootstrap.coffee',
-    'server.coffee'
+    'server.js'
   ], 'server');
+});
+
+Package.on_test(function (api) {
+  api.use(['tar', 'tinytest', 'test-helpers'], ['server']);
+  api.add_files('tests.js', ['server']);
 });

@@ -1,0 +1,1 @@
+tar = Npm.require('tar');
