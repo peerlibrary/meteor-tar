@@ -1,4 +1,4 @@
-Tinytest.addAsync('meteor-tar', function (test, onComplete) {
+Tinytest.add('meteor-tar', function (test) {
   var isDefined = false;
   try {
     tar;
