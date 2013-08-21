@@ -7,6 +7,8 @@ Npm.depends({
 });
 
 Package.on_use(function (api) {
+  api.export('tar');
+
   api.add_files([
     'server.js'
   ], 'server');

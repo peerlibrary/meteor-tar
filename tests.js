@@ -7,4 +7,5 @@ Tinytest.add('meteor-tar', function (test) {
   catch (e) {
   }
   test.isTrue(isDefined, "tar is not defined");
+  test.isTrue(Package.tar.tar, "Package.tar.tar is not defined");
 });
