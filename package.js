@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Npm.depends({
-  tar: "0.1.18"
+  tar: "0.1.20"
 });
 
 Package.on_use(function (api) {
