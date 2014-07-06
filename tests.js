@@ -1,4 +1,4 @@
-Tinytest.add('meteor-tar', function (test) {
+Tinytest.add('tar', function (test) {
   var isDefined = false;
   try {
     tar;
