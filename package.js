@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Meteor smart package for tar node.js package",
-  version: '0.1.20-3',
+  version: '0.1.20_4',
   name: 'peerlibrary:tar',
   git: 'https://github.com/peerlibrary/meteor-tar.git'
 });
@@ -10,7 +10,7 @@ Npm.depends({
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom('METEOR@0.9.1.1');
+  api.versionsFrom('METEOR@0.9.3');
 
   api.export('tar');
 
