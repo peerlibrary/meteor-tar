@@ -12,5 +12,5 @@ Installation
 ------------
 
 ```
-mrt add tar
+meteor add peerlibrary:tar
 ```
